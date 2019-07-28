@@ -4,6 +4,7 @@ import socket
 import numpy as np
 import cv2
 
+print("ip", socket.gethostbyname(socket.gethostname()))
 
 #%%
 def recive(udp):
